@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background-color: #E3D2BD;
+}
+
+@font-face {
+    font-family: Natura;
+    src: url(FontsFree-Net-Natura.ttf);
+}
+
+@font-face {
+    font-family: Prata;
+    src: url(Prata-Regular.ttf);
+}
+
+nav {
+    /* width: 100%;
+    height: 700px; */
+    background: #A79B88;
+    padding: 10px 30px;
+    box-sizing: border-box; 
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    font-size: 23px;
+    /* justify-content: space-between; */
+    /* text-align: center; */
+} 
+
+nav a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-family: "Prata";
+}
+
+#home, #about {
+    text-align: left;
+}
+
+#portfolio, #getintouch {
+    text-align: right;
+}
+
+#space {
+    width: 100%;
+    height: 700px;
+    background: #A79B88;
+    text-align: center;
+    align-items: center;
+    font-size: 120px;
+    color: white;
+    margin-top: -5vw;
+}
+
+#container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+h1 {
+    /* padding-top: 10vw; */
+    font-size: 100px;
+    margin-bottom: -1vw;
+    margin-top: 0;
+    font-family: "Prata";
+    font-weight: 80;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 95px;
+    font-family: "Natura";
+    font-weight: 80;
+}
+
+.assignments a{
+    text-decoration: none;
+}
+
+.assignments{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 30px;
+    text-decoration: none;
+    /* padding: 50px 400px; */
+}
+
+#img1, #img2, #img3, #img4{
+    width: 100%;
+    height: auto;  
+}
+
+.text{
+    opacity: 0;
+    transition: opacity 1s ease;
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    font-size: 30px;
+    font-family: "Natura";
+}
+
+.assignments a:hover .text{
+opacity: 1;
+text-decoration: none;
+}
+
+.bottom {
+    background-color: #A79B88;
+    height: 200px;
+    text-align: center;
+}
+
+#heading {
+    text-align: center;
+    color: white;
+    font-size:90px;
+    font-family: "Natura";
+    font-weight: 30;
+}
+
+#info {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: "Prata";
+    font-weight: 30;
+}
